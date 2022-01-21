@@ -3,7 +3,7 @@ import {Razdel} from "./styles";
 
 export const Razd2 =() => {
     return (
-        <Razdel>
+        <Razdel id = 'r2'>
 
             <Title>РАЗДЕЛ 2 </Title>
             <SubTitle>Выживание в дикой природе. Приготовление пищи на костре.</SubTitle>

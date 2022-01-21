@@ -11,6 +11,7 @@ import {Razd8} from "./components/R8";
 import {Wrapper,Content,SideBar,ALink, ANav} from "./components/styles";
 import './App.css';
 import {Footer} from "./components/Footer";
+import {ModalButton} from "./components/ModalButton";
 
 function App() {
   return (
@@ -18,14 +19,14 @@ function App() {
         <Wrapper>
             <SideBar>
                 <ANav>
-                    <ALink href="#">Раздел 1</ALink>
-                    <ALink href="#">Раздел 2</ALink>
-                    <ALink href="#">Раздел 3</ALink>
-                    <ALink href="#">Раздел 4</ALink>
-                    <ALink href="#">Раздел 5</ALink>
-                    <ALink href="#">Раздел 6</ALink>
-                    <ALink href="#">Раздел 7</ALink>
-                    <ALink href="#">Раздел 8</ALink>
+                    <ALink href="#r1">Раздел 1</ALink>
+                    <ALink href="#r2">Раздел 2</ALink>
+                    <ALink href="#r3">Раздел 3</ALink>
+                    <ALink href="#r4">Раздел 4</ALink>
+                    <ALink href="#r5">Раздел 5</ALink>
+                    <ALink href="#r6">Раздел 6</ALink>
+                    <ALink href="#r7">Раздел 7</ALink>
+                    <ALink href="#r8">Раздел 8</ALink>
                 </ANav>
             </SideBar>
             <Content>
@@ -40,6 +41,7 @@ function App() {
                 <Razd8/>
             </Content>
         </Wrapper>
+        <ModalButton/>
         <Footer/>
     </div>
   );

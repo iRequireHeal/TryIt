@@ -4,7 +4,7 @@ import image from "../umg/6r.jpg";
 
 export const Razd6 =() => {
     return (
-        <Razdel>
+        <Razdel id = 'r6'>
             <Title>РАЗДЕЛ 6</Title>
             <SubTitle>Выживание в дикой природе. Ночь в палатке.</SubTitle>
                 <Text>

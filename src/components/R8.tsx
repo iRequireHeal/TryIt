@@ -1,9 +1,9 @@
-import {Title,Text,SubTitle,Imgs, RText,Esli} from "./styles";
+import {Title,Text,SubTitle} from "./styles";
 import {Razdel} from "./styles";
 
 export const Razd8 =() => {
     return (
-        <Razdel>
+        <Razdel id = 'r8'>
             <Title>РАЗДЕЛ 8</Title>
             <SubTitle>Выживание в дикой природе. Промокшая палатка.</SubTitle>
                 <Text>

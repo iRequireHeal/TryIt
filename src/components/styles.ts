@@ -29,6 +29,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   margin: auto;
   justify-content: center;
+  scroll-behavior: smooth;
 `
 
 export const SideBar = styled.div`
@@ -55,15 +56,16 @@ export const ALink = styled.a`
   background-size: 100% 100%, auto;
   background-position: 50% 50%;
   box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
-  transition: 0.2s;
+  transition: 2s;
   &:hover  {
     background-size: 140% 100%, auto;
   }
-  &:active {
+  &:active {  
     top: 1px;
     color: #ffdead;
     box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
   }
+  
 `
 export const ANav = styled.nav`
   display: flex;
@@ -89,5 +91,9 @@ export const Footer_Wrap = styled.div`
   width: 100%;
   height: 90px;
   justify-content: center;
-  
+`
+
+export const ModalWrapper = styled.div`
+    display: flex;
+    position: fixed;
 `
