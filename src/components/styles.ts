@@ -94,6 +94,10 @@ export const Footer_Wrap = styled.div`
 `
 
 export const ModalWrapper = styled.div`
-    display: flex;
-    position: fixed;
+  max-width: 80px;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: -40%;
 `

@@ -4,7 +4,7 @@ import React from "react";
 export const ModalButton = () => {
     return(
         <ModalWrapper>
-            <ALink href="#r1">ВВЕРХ</ALink>
+            <ALink href="#nav">ВВЕРХ</ALink>
         </ModalWrapper>
     )
 }

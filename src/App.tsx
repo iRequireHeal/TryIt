@@ -8,7 +8,7 @@ import {Razd5} from "./components/R5";
 import {Razd6} from "./components/R6";
 import {Razd7} from "./components/R7";
 import {Razd8} from "./components/R8";
-import {Wrapper,Content,SideBar,ALink, ANav} from "./components/styles";
+import {ALink, ANav, Content, SideBar, Wrapper} from "./components/styles";
 import './App.css';
 import {Footer} from "./components/Footer";
 import {ModalButton} from "./components/ModalButton";
@@ -18,7 +18,7 @@ function App() {
     <div>
         <Wrapper>
             <SideBar>
-                <ANav>
+                <ANav id={'nav'}>
                     <ALink href="#r1">Раздел 1</ALink>
                     <ALink href="#r2">Раздел 2</ALink>
                     <ALink href="#r3">Раздел 3</ALink>
@@ -40,8 +40,8 @@ function App() {
                 <Razd7/>
                 <Razd8/>
             </Content>
+            <ModalButton/>
         </Wrapper>
-        <ModalButton/>
         <Footer/>
     </div>
   );
